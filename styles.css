@@ -1,0 +1,410 @@
+
+
+
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?usp=sharing */
+FONTS
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+h2{
+  font-family: Poppins,Helvetica, sans-serif;
+}
+
+h1{
+  font-family: Poppins,Helvetica, sans-serif;
+}
+
+
+body{
+  background-color: #131D26;
+  color: #F2F2F2;
+  font-family: Lato,Helvetica, sans-serif;
+}
+
+p a{
+  color:#F2F2F2;
+  text-decoration: none;
+}
+
+p a:hover{
+  color:#D98555;
+}
+
+
+.about{
+  font-size: 60px;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+.info {
+  text-align: center; 
+}
+
+#grid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: center;
+}
+
+
+#navGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: #082B59;
+  border-radius: 90px;
+  width: 100%;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.barLink{
+  color: white;
+}
+
+a.barLink:hover{
+  color: #D98555;
+}
+
+a.buttonLink{
+  color: black;
+}
+
+a.buttonLink:hover{
+  color:#0d3d7d;
+}
+
+#nav-section{
+  justify-items: center;
+}
+
+.bar{
+   position: sticky;
+   top: 0;
+}
+
+.logoImage{
+  width: 100%;
+}
+
+
+.copy{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 25%;
+  margin-left: 25%;
+  line-height: 2.1;
+}
+
+.socials{
+  text-align: center;
+  word-spacing: 0px;
+  margin: 20px;
+}
+
+.pic-section{
+  background-color: #082B59;
+  padding: 40px;
+  text-align: center;
+}
+
+#coffee-pics{
+  margin:0px;
+  border: 2px solid white;
+  border-radius: 60px;
+  padding: 5px;
+  display: inline-block;
+}
+
+img{
+  border-radius: 60px;
+  padding: 20px;
+}
+
+.copywrite{
+  font-size: 14px;
+}
+
+.contact{
+  border: 3px solid white ;
+  border-radius: 500px;
+  padding: 18px;
+  background-color: #D98555;
+  color:black;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Poppins,Helvetica, sans-serif;
+}
+
+
+/* CSS for Products Page */
+
+.productImage{
+  align-self: center;
+  width: 100%;
+}
+
+.coffeeProducts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#productItem{
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 2%;
+    background-color: #082B59;
+    margin-top: 5%;
+}
+
+
+
+/* CSS for Home Page */
+
+.bottomBeans{
+  width:100%;
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  #coffee-pics{
+    display: flex;
+    flex-direction: column;
+  }
+  .copy{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 2.1;
+  }
+  #grid{
+    display: flex;
+   flex-direction: column;
+  }
+  .about{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+  }
+  #navGrid{
+    width: 140%;
+    font-size: 16px;
+  }
+  .bar{
+    position:initial;
+  }
+  .logoImage{
+    width: 30%;
+  }
+
+  .coffeeProducts{
+    display: flex;
+    flex-direction: column;
+  }
+  #productItem{
+    width: 80%;
+    align-self: center;
+}
+}
+@media screen and (max-width: 500px) {
+  #coffee-pics{
+    display: flex;
+    flex-direction: column;
+  }
+  #grid{
+    display: flex;
+   flex-direction: column;
+  }
+  .copy{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 2.1;
+  }
+  #navGrid{
+    width: 130%;
+    font-size: 16px;
+  }
+}
